@@ -264,7 +264,7 @@ body._lock {
     padding: 100px 30px 30px 30px;
     -webkit-transition: left 0.3s ease 0s;
     transition: left 0.3s ease 0s;
-    overflow: auto;
+    overflow: hidden;
   }
 
   .menu__body._active {
