@@ -1,0 +1,121 @@
+//!<...Обнуление>
+
+@import "nullstyle.scss";
+
+//!<Oбнуление...>
+//-------------------------------------------------------
+//!<...Контейнер>
+
+._container {
+  max-width: 1546px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: content-box;
+}
+
+//!<Контейнер...>
+//-------------------------------------------------------
+//!<...Общие стили>
+
+:root {
+  --index: calc(
+    1vw + 1vh
+  ); //пример использования - height: calc(var(--index) * 10);
+}
+
+@font-face {
+   font-family: gardens_c;
+   src: url(/fonts/gardenscregular.woff);
+}
+
+body {
+  font-size: calc(var(--index) * 0.6);
+  color: #000;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+body._lock {
+  overflow: hidden;
+}
+.page {
+  flex: 1 1 auto;
+}
+
+//!<Общие стили...>
+//-------------------------------------------------------
+//!<...Шапка>
+
+@import "header.scss";
+
+//!<Шапка...>
+//-------------------------------------------------------
+//!<...Контент>
+
+//======================< 1 block >======================
+
+.page__main-block {
+}
+
+.main-block {
+  position: relative;
+}
+.main-block__container {
+}
+
+.main-block__body {
+  padding: 420px 0 420px 0;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.main-block__title {
+  font-weight: 400;
+  font-size: calc(var(--index) * 2.7);
+  line-height: calc(var(--index) * 2.5);
+  color: #fff;
+  font-family: gardens_c, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-block__image {
+}
+
+._ibg img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  border-radius: 0 0 7% 7%;
+}
+
+@media (max-width: 1200px) {
+  .main-block__body {
+    padding: 320px 0 320px 0;
+  }
+}
+@media (max-width: 767px) {
+  .main-block__body {
+    padding: 250px 0 250px 0;
+  }
+}
+@media (max-width: 479px) {
+  .main-block__body {
+    padding: 220px 0 220px 0;
+  }
+}
+
+//======================< 2 block >======================
+
+//!<Контент...>
+//-------------------------------------------------------
+//!<...Подвал>
+
+//!<Подвал...>
