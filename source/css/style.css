@@ -582,7 +582,7 @@ body._lock {
           align-items: center;
   width: 560px;
   height: 315px;
-  background: url("images/main-block/main-block.jpeg");
+  background-image: url("/images/main-block/main-block.jpeg");
   background-size: cover;
 }
 
