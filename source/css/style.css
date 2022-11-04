@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: gardens_c;
   src: url(/fonts/gardenscregular.woff);
 }
+@font-face {
+  font-family: gardens_c;
+  src: url(/fonts/gardenscregular.woff2);
+}
 body {
   font-size: calc(var(--index) * 0.6);
   color: #000;
@@ -579,16 +583,16 @@ body._lock {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 560px;
-  height: 315px;
-  background-image: url("/images/main-block/main-block.jpeg");
+  width: calc(var(--index) * 22);
+  height: calc(var(--index) * 15);
+  background-image: url(/images/main-block/main-block.jpeg);
   background-size: cover;
 }
 
 @media (max-width: 767px) {
   .whoweare-video__img {
-    width: calc(var(--index) * 33);
-    height: calc(var(--index) * 20);
+    width: calc(var(--index) * 27);
+    height: calc(var(--index) * 17);
   }
 }
 .whoweare-video__dark {
