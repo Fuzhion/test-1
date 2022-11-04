@@ -89,7 +89,6 @@ h1, h2, h3, h4, h5, h6 {
   src: url(/fonts/gardenscregular.woff);
 }
 body {
-  overflow-x: hidden;
   font-size: calc(var(--index) * 0.6);
   color: #000;
   font-weight: 500;
@@ -560,7 +559,7 @@ body._lock {
   }
 }
 .whoweare__video {
-  padding: calc(var(--index) * 2);
+  padding-top: calc(var(--index) * 2);
   border-radius: 50px;
 }
 
@@ -588,7 +587,7 @@ body._lock {
 
 @media (max-width: 767px) {
   .whoweare-video__img {
-    width: calc(var(--index) * 35);
+    width: calc(var(--index) * 33);
     height: calc(var(--index) * 20);
   }
 }
