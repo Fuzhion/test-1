@@ -86,11 +86,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: gardens_c;
-  src: url(/fonts/gardenscregular.woff);
+  src: url("../../fonts/gardenscregular.woff");
 }
 @font-face {
   font-family: gardens_c;
-  src: url(/fonts/gardenscregular.woff2);
+  src: url("../../fonts/gardenscregular.woff2");
 }
 body {
   font-size: calc(var(--index) * 0.6);
@@ -585,7 +585,7 @@ body._lock {
           align-items: center;
   width: calc(var(--index) * 22);
   height: calc(var(--index) * 15);
-  background-image: url(../../images/main-block/main-block.jpeg);
+  background-image: url("../../images/main-block/main-block.jpeg");
   background-size: cover;
 }
 
