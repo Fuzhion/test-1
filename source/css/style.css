@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6 {
   src: url(/fonts/gardenscregular.woff);
 }
 body {
+  overflow-x: hidden;
   font-size: calc(var(--index) * 0.6);
   color: #000;
   font-weight: 500;
